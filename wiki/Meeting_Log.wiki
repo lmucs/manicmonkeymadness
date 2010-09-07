@@ -3,11 +3,19 @@
 
 == August 31 ==
   * Reviewed course [http://www.cs.lmu.edu/~ray/classes/se/syllabus/ syllabus].
-  *
-  *
+  * Introduced textbook _Code Complete_.
+  * Discussed project ideas.
+  * Possible projects based on: [http://www.addictinggames.com/redremover.html Red Remover], [http://www.rovio.com/index.php?page=angry-birds Angry Birds], and [http://www.addictinggames.com/crushthecastle.html Crush the Castle].
 
 == September 2 ==
+  * Reviewed course notes
+  * Decided on game type: strategic, physics-based game, monkeys.
+  * Discussed possible game names
 
 == September 7 ==
+  * Figured out how to sign up and create a project in Google Code.
+  * Decided on a name for the game and created the summary.
+  * Created Google Code project for Manic Monkey Madness (m3).
+  * Quick peek at Serengeti project for what to expect.
 
 == September 9 ==
