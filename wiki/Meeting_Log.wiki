@@ -6,6 +6,7 @@
   * Introduced textbook _Code Complete_.
   * Discussed project ideas.
   * Possible projects based on: [http://www.addictinggames.com/redremover.html Red Remover], [http://www.rovio.com/index.php?page=angry-birds Angry Birds], and [http://www.addictinggames.com/crushthecastle.html Crush the Castle].
+  * Watched Dan Pink's video on intrinsic motivation from Jeff Atwood's [http://www.codinghorror.com/blog/ Coding Horror] website.
 
 == September 2 ==
   * Reviewed course notes on [http://www.cs.lmu.edu/~ray/notes/computing/ computing].
