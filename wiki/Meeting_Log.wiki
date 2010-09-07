@@ -1,13 +1,13 @@
 #summary Activity log for class meetings.
 #labels Featured
 
-= August 31 =
+== August 31 ==
   * Reviewed course [http://www.cs.lmu.edu/~ray/classes/se/syllabus/ syllabus].
   *
   *
 
-= September 2 =
+== September 2 ==
 
-= September 7 =
+== September 7 ==
 
-= September 9 =
+== September 9 ==
