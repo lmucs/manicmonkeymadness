@@ -1,0 +1,19 @@
+#summary Activity log for class meetings.
+#labels Featured
+
+= Introduction =
+
+August 31
+
+September 2
+
+September 7
+
+September 9
+
+= Details =
+
+Add your content here.  Format your content with:
+  * Text in *bold* or _italic_
+  * Headings, paragraphs, and lists
+  * Automatic links to other wiki pages
