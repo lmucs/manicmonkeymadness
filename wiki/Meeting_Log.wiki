@@ -20,3 +20,4 @@
   * Quick peek at [http://code.google.com/p/playserengeti/ Serengeti] project for what to expect.
 
 == September 9 ==
+  * Discussed requirements for manicmonkeymadness.
