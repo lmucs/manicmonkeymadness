@@ -17,6 +17,6 @@
   * Figured out how to sign up and create a project in Google Code.
   * Decided on a name for the game and created the summary.
   * Created Google Code project for Manic Monkey Madness (m3).
-  * Quick peek at Serengeti project for what to expect.
+  * Quick peek at [http://code.google.com/p/playserengeti/ Serengeti] project for what to expect.
 
 == September 9 ==
