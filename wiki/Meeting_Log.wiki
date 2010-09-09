@@ -22,3 +22,5 @@
 == September 9 ==
   * Discussed requirements for manicmonkeymadness.
   * Covered XML and JSON relationship.
+  * Set up subversion connections.
+  * Homework: get familiar with canvas.
