@@ -5,22 +5,27 @@
   * Reviewed course [http://www.cs.lmu.edu/~ray/classes/se/syllabus/ syllabus].
   * Introduced textbook _Code Complete_.
   * Discussed project ideas.
+  * Short tour of [http://chromeexperiments.com Chrome Experiments].
   * Possible projects based on: [http://www.addictinggames.com/redremover.html Red Remover], [http://www.rovio.com/index.php?page=angry-birds Angry Birds], and [http://www.addictinggames.com/crushthecastle.html Crush the Castle].
   * Watched Dan Pink's video on intrinsic motivation from Jeff Atwood's [http://www.codinghorror.com/blog/ Coding Horror] website.
 
 == September 2 ==
   * Reviewed course notes on [http://www.cs.lmu.edu/~ray/notes/computing/ computing].
+  * Long discussion on possible projects, with help from Dr. Dionisio.
   * Decided on game type: strategic, physics-based game, monkeys.
-  * Discussed possible game names
+  * Discussed possible game names.
 
 == September 7 ==
   * Figured out how to sign up and create a project in Google Code.
   * Decided on a name for the game and created the summary.
   * Created Google Code project for Manic Monkey Madness (m3).
   * Quick peek at [http://code.google.com/p/playserengeti/ Serengeti] project for what to expect.
+  * Determined that naming was difficult.
 
 == September 9 ==
-  * Discussed requirements for manicmonkeymadness.
-  * Covered XML and JSON relationship.
-  * Set up subversion connections.
-  * Homework: get familiar with canvas.
+  * Began requirements analysis for manicmonkeymadness.
+  * Produced high-level requirements.
+  * Discussed layered architectures: clients, web servers, backend service layers.
+  * Covered XML and JSON.
+  * All students set up workstations with subversion plugins for their IDEs, checked out the project from Google Code, and performed checkins.
+  * *Homework*: get familiar with canvas.
