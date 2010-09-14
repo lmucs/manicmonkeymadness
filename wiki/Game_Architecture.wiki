@@ -1,0 +1,37 @@
+#summary Documentation for the game's architecture.
+
+= Summary =
+
+The major components of the game are (or will be) broken up into various modules. Additionally, the overall gameplay logic is currently divided amongst different game states. Details on both are below.
+
+
+= Modules =
+
+All modules are JavaScript objects that are contained in the global `m3` object. Each module contains whatever data and functions it needs to run, and is managed as needed by the game states.
+
+The modules are stored in their own files in the scripts/modules directory.
+
+== Config ==
+
+This module contains data that is used to configure the game itself. Currently it only contains the game's frames per second, but it will probably grow significantly as development continues.
+
+== Util ==
+
+This module contains utility functions. Currently it just contains a function to log text to the console beneath the game.
+
+
+= Game States =
+
+The game states are where the game's logic goes. The constructors for all the states are placed into the `m3.game.states` object, and the instance of the current state is stored in `m3.game.state`. When you want to transition from one state to another (say, to the Play State), set `m3.game.state` to a new instance of the state you want, as in: `m3.game.state = new m3.game.states.PlayState();`.
+
+The actual logic goes into each state's `update` function. The main game loop is set to call the current state's `update` function every frame.
+
+The states are stored in their own files in the scripts/states directory.
+
+== Main Menu State ==
+
+This is the initial state of the game when the page is first loaded. It needs to display our splash image and menu options and read input from the player. Currently it just fills in the background and draws the name of the game.
+
+== Play State ==
+
+This will be the main state of the game, which is active when the player is actual playing the game. Currently it does nothing.
