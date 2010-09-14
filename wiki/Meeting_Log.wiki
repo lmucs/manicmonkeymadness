@@ -33,3 +33,14 @@
   * Covered XML and JSON.
   * All students set up their workstations with subversion plugins for their IDEs, checked out the project from Google Code, and performed checkins.
   * *Homework*: get familiar with canvas.
+
+== September 14 ==
+  * Held standup
+  ** Discussed Canvas tutorials that were studied over the weekend
+  ** Looked at one JavaScript physics engine
+  * Assigned tasks for next class
+  ** Creation of background images and sprites (Matt)
+  ** Money sprite initial animation (David)
+  ** Launcher structure and behavior with good UI techniques (Anthony)
+  ** Physics engine research and rough fortress collapse demo (Matt and Jarod)
+  * *Lecture*: JavaScript objects, constructors, prototypes, information hiding, and anonymous functions.
