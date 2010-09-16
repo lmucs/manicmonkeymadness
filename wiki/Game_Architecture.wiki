@@ -19,6 +19,10 @@ This module contains data that is used to configure the game itself. Currently i
 
 This module contains utility functions. Currently it just contains a function to log text to the console beneath the game.
 
+== Input ==
+
+See [Input].
+
 
 = Game States =
 
