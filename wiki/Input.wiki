@@ -38,7 +38,7 @@ If a state doesn't need to handle keyboard input, it doesn't have to implement `
 The input module also contains an object called keys, which contains boolean values for each of the keys on the keyboard. The value of a given key will be true while the key is being held down and false otherwise. An example:
 
 {{{
-if (m3.input.keys("ENTER")) {
+if (m3.input.keys.ENTER) {
     // Do something while enter is held down
 }
 }}}
