@@ -23,6 +23,14 @@ This module contains utility functions. Currently it just contains a function to
 
 See [Input].
 
+== Camera ==
+
+The camera module contains methods to manipulate the game's viewport. To use it in a state, all you need to do is call `m3.camera.update` inside the state's update function. You can then use all of the module's functions. `move` will move the viewport by the given amount, `warp` will instantly teleport the camera to the given location, and `slideTo` will cause the camera to slide to the specified location at the specified speed.
+
+== Math ==
+
+This module contains utility functions and object constructors for math-related things. Currently it contains a constructor for a `Vector` object, as well as a utility function to clamp a number within a given range.
+
 
 = Game States =
 
