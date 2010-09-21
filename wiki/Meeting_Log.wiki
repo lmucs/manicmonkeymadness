@@ -35,21 +35,29 @@
   * *Homework*: get familiar with canvas.
 
 == September 14 ==
-  * Held standup
-  ** Discussed Canvas tutorials that were studied over the weekend
-  ** Looked at one !JavaScript physics engine
+  * Standup
+    * Discussed Canvas tutorials that were studied over the weekend
+    * Looked at one !JavaScript physics engine
   * Assigned tasks for next class
-  ** Creation of background images and sprites (Matt)
-  ** Money sprite initial animation (David)
-  ** Launcher structure and behavior with good UI techniques (Anthony)
-  ** Physics engine research and rough fortress collapse demo (Matt and Jarod)
+    * Creation of background images and sprites (Matt)
+    * Money sprite initial animation (David)
+    * Launcher structure and behavior with good UI techniques (Anthony)
+    * Physics engine research and rough fortress collapse demo (Matt and Jarod)
   * *Lecture*: !JavaScript objects, constructors, prototypes, information hiding, and anonymous functions.
 
 == September 16 ==
-  * Standup:
-  ** Tasks completing: basic architecture, game and menu states, console with logging, rudimentary UI for slingshot launcher, initial background.
-  ** Tasks planned for next class: physics engine demo, launcher "class", bouncing monkey on game canvas, mostly-functional menu.
+  * Standup
+    * Tasks completed: basic architecture, game and menu states, console with logging, rudimentary UI for slingshot launcher, initial background.
+    * Tasks planned for next class: physics engine demo, launcher "class", bouncing monkey on game canvas, mostly-functional menu.
   * Sketched some ideas for a variety of monkey launchers (slingshots, canons, teeter-totters)
   * Decided on a virtual canvas size of 2000 x 450, with 900 x 450 visible.
   * Discussion on module structure for the project: should all modules follow the anonymous function call pattern, even when there is no private state?  Tradeoff is between consistency and performance.  Since the functions would be called only once, performance is a non-issue.
   * Reminded students to actively use the wiki.  All ideas, all background research, all problems, all decisions, etc. need to be documented.
+
+== September 21 ==
+  * Standup
+    * Tasks completed: Virtual canvas size with scrolling, input module, simple monkey sprite, basic fortress components with small falling ball with collision demo, cannon sprite.
+    * Tasks planned: Monkey sprite sheet, cannon animation, cannon interactivity using input module, more research on physics libraries (possible fortress collapse?), framework for levels.
+  * Decided to wait on world-coordinate system.
+  * Talked about the Twitter !JavaScript injection exploit.
+  * Brief side discussions, including !ECMAScript 5 objects.
