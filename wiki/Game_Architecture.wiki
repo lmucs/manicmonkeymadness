@@ -2,12 +2,12 @@
 
 = Summary =
 
-The major components of the game are (or will be) broken up into various modules. Additionally, the overall gameplay logic is currently divided amongst different game states. Details on both are below.
+The major components of the game are (or will be) broken up into various modules and types. Additionally, the overall gameplay logic is currently divided amongst different game states. Details are below.
 
 
 = Modules =
 
-All modules are JavaScript objects that are contained in the global `m3` object. Each module contains whatever data and functions it needs to run, and is managed as needed by the game states.
+All modules are JavaScript objects that are contained in the global `m3` object. Each module contains whatever data and functions it needs to run, and is managed as needed by the game states. Modules are singleton objects that are instantiated at the beginning of the program, as opposed to types, which may have more than one instance and can be instantiated at any time.
 
 The modules are stored in their own files in the scripts/modules directory.
 
@@ -32,9 +32,22 @@ The camera module contains methods to manipulate the game's viewport. To use it 
 This module contains utility functions and object constructors for math-related things. Currently it contains a constructor for a `Vector` object, as well as a utility function to clamp a number within a given range.
 
 
+= Types =
+
+Types differ from modules in that they have constructors which we use to create instances of that type, whereas modules are singleton objects which are created at load time. The constructors for all the types are placed into the `m3.types` object, so an example of instantiating a Vector could be `var v = new m3.types.Vector(0, 1);`.
+
+The types are stored in their own files in the scripts/types directory.
+
+== Vector ==
+
+This is a simple type representing a generic vector. It can be used for a variety of purposes. For example, the velocity of an object in 2D space can be modeled as a vector.
+
+The type also contains several useful operations for vectors, such as normalization and finding a vector's length.
+
+
 = Game States =
 
-The game states are where the game's logic goes. The constructors for all the states are placed into the `m3.game.states` object, and the instance of the current state is stored in `m3.game.state`. When you want to transition from one state to another (say, to the Play State), set `m3.game.state` to a new instance of the state you want, as in: `m3.game.state = new m3.game.states.PlayState();`.
+The game states are where the game's logic goes. The constructors for all the states are placed into the `m3.states` object, and the instance of the current state is stored in `m3.game.state`. When you want to transition from one state to another (say, to the Play State), set `m3.game.state` to a new instance of the state you want, as in: `m3.game.state = new m3.game.states.PlayState();`.
 
 The actual logic goes into each state's `update` function. The main game loop is set to call the current state's `update` function every frame.
 
