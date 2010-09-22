@@ -47,7 +47,7 @@ Note that this differs from the previous method in that it will always be true w
 
 = Mouse handling =
 
-Mouse handling is very similar to keyboard handling. A state may choose to implement a `mouseHandlers` object, which implements `down`, `up`, or both. An example:
+Mouse handling is very similar to keyboard handling. A state may choose to implement a `mouseHandlers` object, which implements `down`, `up`, or both for mouse button handling, and `move` for mouse movement. An example:
 
 {{{
 m3.game.states.PlayState.prototype.mouseHandlers = {
@@ -58,9 +58,13 @@ m3.game.states.PlayState.prototype.mouseHandlers = {
     up: function(event) {
         m3.launcher.launch(event);
     },
+    
+    move: function(event) {
+        m3.launcher.aim(event);
+    },
 };
 }}}
 
 You may use the `event` parameter to get information on the mouse event, such as where the player clicked or released. Info on what information you can access from the event parameter can be seen [http://docs.sun.com/source/816-6408-10/handlers.htm#1120635 here].
 
-Currently only the mouseup and mousedown events are being handled, but support for other mouse events can be added as needed.
+Currently only the mouseup, mousedown, and mousemove events are being handled, but support for other mouse events can be added as needed.
