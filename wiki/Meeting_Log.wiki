@@ -61,3 +61,10 @@
   * Decided to wait on world-coordinate system.
   * Talked about the Twitter !JavaScript injection exploit.
   * Brief side discussions, including !ECMAScript 5 objects.
+
+== September 23 ==
+  * Standup
+    * Tasks completed: Background image, monkey spritesheet, movable cannon.
+    * Tasks planned: Physics implemented, begin projectile and fortress functionality.
+  * Discussed Ben Cherry's Javascript: Better and Faster Slides
+  * Discussed Nicholas Zakas' Writing Efficient Javascript Slides
