@@ -29,6 +29,18 @@ The camera module contains methods to manipulate the game's viewport. To use it 
 
 `slideTo` can be given a transition type, which determines how the camera will move. Currently, you can pass in either `linear`, which transitions at a constant rate, or `smooth`, which starts off quick and then slows down so that it looks smoother.
 
+== Assets ==
+
+This is a special module that contains all of the game assets. The purpose of the module is to load all the assets before the game starts so that the game doesn't try to run with partially downloaded assets. Currently the assets are broken into several nested objects for organization.
+
+== Score ==
+
+This module manages the scoring system. For now it just holds the actual score numbers for both players, but eventually it'll probably have stuff like the point values for various actions, saving of high scores, and possibly more.
+
+== UI ==
+
+See [User Interface].
+
 == Math ==
 
 This module contains utility functions for math-related things. Currently it just has a utility function to clamp a number within a given range.
