@@ -39,7 +39,7 @@ This module manages the scoring system. For now it just holds the actual score n
 
 == UI ==
 
-See [User Interface].
+See [User_Interface].
 
 == Math ==
 
