@@ -62,6 +62,10 @@ The type also contains several useful operations for vectors, such as normalizat
 
 This object manages the game's level -- things like the fortresses, physics objects, etc. Right now it just draws the level's multi-layered background to the screen using the nifty parallax scrolling technique.
 
+== Sprite ==
+
+See [Sprites].
+
 
 = Game States =
 
