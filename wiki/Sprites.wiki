@@ -1,0 +1,52 @@
+#summary Documentation for Sprite type.
+
+= Introduction =
+
+Sprites allow you to create animated images using a sprite sheet -- a single image that contains all of the frames of an animation. Here's an example of a simple sprite sheet:
+
+<img src="http://manicmonkeymadness.googlecode.com/svn/trunk/src/main/web/images/sprites/demo_monkey.png" />
+
+This sprite sheet has four frames. In terms of our sprite implementation, they are indexed from left to right, top to bottom starting at zero, so that the indices are:
+
+|| 0 || 1 ||
+|| 2 || 3 ||
+
+
+= Sprite sheet requirements =
+
+It is important to note that each "cell" in the sprite sheet must be exactly the same width and height. For example, the dimensions of the demo sprite sheet are 50x46. Since there are 2x2 frames, we know that the dimensions of each frame are (50 / 2)x(46 / 2) = 25x23.
+
+The number of rows and columns in the sprite sheet is arbitrary. It can be whatever you want -- so for example, the sprite sheet above could have had just one row of four cells instead of two rows of two cells.
+
+PNG format is preferred.
+
+
+= Usage =
+
+You can create a sprite with its constructor: `m3.types.Sprite(sheet, height, width, x, y)`. Of these parameters, only `x` and `y` are optional. `sheet` is a reference to the image that is the sprite sheet itself. `height` and `width` are the dimensions of each frame, NOT the sprite sheet. `x` and `y` are coordinates where the sprite will be drawn.
+
+An example that uses the monkey sprite from above could be (assuming the sprite sheet image has been loaded into the assets module under `sprites.monkey`):
+
+{{{
+var sprite = new m3.types.Sprite(m3.assets.sprites.monkey, 23, 25, 600, 400);
+}}}
+
+Once you create a sprite, you can start creating animations with `addAnimation`, like this:
+
+{{{
+sprite.addAnimation("idle", [0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 1, 0, 0, 0, 2, 2, 3, 3, 2, 2, 3, 3, 2, 2], 0.12);
+}}}
+
+This creates an animation for the sprite with the name "idle", which will loop through the frame indices given in the array at a rate of one frame per 0.12 seconds. This set of frames makes the monkey blink a few times, then scratch his head. You can create as many animations as you want.
+
+Finally, you need to actually play the animation, which you can do by calling `play` with the animation id:
+
+{{{
+sprite.play("idle");
+}}}
+
+When you have multiple animations, you can switch them at any time by just calling `play` again with the animation id of the new animation you want to play.
+
+If you need to stop a sprite from playing completely, you can call `stop(new_frame)`. The `new_frame` parameter is optional. If you leave it out, the sprite will stop at the frame it's currently playing. Otherwise it will skip to whatever frame you pass in and wait.
+
+Lastly, in order to actually animate and render the sprite, you'll just need to call its `update` function every frame.
