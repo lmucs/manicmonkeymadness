@@ -4,7 +4,7 @@
 == August 31 ==
   * Reviewed course [http://www.cs.lmu.edu/~ray/classes/se/syllabus/ syllabus].
   * Brief look at the [http://agilemanifesto.org/ Agile Manifesto].
-  * Introduced textbook [http://www.cc2e.com/ _Code Complete_].
+  * Introduced textbook _[http://www.cc2e.com/ Code Complete]_.
   * Discussed project ideas.
   * Short tour of [http://chromeexperiments.com Chrome Experiments].
   * Possible projects based on: [http://www.addictinggames.com/redremover.html Red Remover], [http://www.rovio.com/index.php?page=angry-birds Angry Birds], and [http://www.addictinggames.com/crushthecastle.html Crush the Castle].
@@ -74,5 +74,5 @@
     * Tasks completed: Improved monkey sprite sheet, primitive demo of objects bouncing off of other objects, score objects and associated graphics, bugfix for Firefox rendering problem.
     * Tasks planned: Ground positioning bugfix, data structures and game logic for two players, more realistic use of physics engine, integrate new port of box2d.
   * Brief look at [http://jslint.org JSLint].
-  * Overview of Douglas Crockford's JavaScript pages.
+  * Overview of [http://www.crockford.com/javascript/ Douglas Crockford's JavaScript pages].
   * Advice to check out Crockford's Good Parts book and videos.
