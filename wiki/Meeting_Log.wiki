@@ -76,3 +76,18 @@
   * Brief look at [http://jslint.org JSLint].
   * Overview of [http://www.crockford.com/javascript/ Douglas Crockford's JavaScript pages].
   * Advice to check out Crockford's Good Parts book and videos.
+
+== September 30 ==
+  * Standup
+    * Anyone remember what happened on this date?
+
+== October 5 ==
+  * Standup
+    * Camera follow has been implemented
+    * Sprites with arbitrary bitmaps implemented, rocks and bananas now flying
+    * Interesting structures with realistic collapse now implemented
+    * Progress with bug fixes, including mouse event transitions
+  * Discussion about mouse events, and how click events are queued
+  * Discussion of different levels (DOM 1 and DOM 2) event handling
+  * *Lecture*: jQuery
+  * Advice to check out Eich's video lecture on the history of JavaScript
