@@ -93,3 +93,15 @@
   * Discussion of different levels (DOM 1 and DOM 2) event handling
   * *Lecture*: jQuery
   * Advice to check out Eich's video lecture on the history of JavaScript
+
+== October 7 ==
+
+  * Standup
+    * Fortress object implemented
+    * Textures and physical properties now exist for fortress pieces. The first texture implemented is wood.  Setting the properties are set programmatically; in the future these should come from a level editor
+    * The launcher UI has been improved (angle clamping, fine tuning via keyboard, scroll disable during aiming)
+    * Monkeys-as-phyiscal objects still in progress
+  * Discussion with Prof. Dionisio on progess and UI things to consider
+  * Reminded class to use the issue tracker
+  * Identified highest priority activities: scores, turn taking through physical settling as opposed to absolute time, monkeys as objects
+  * User feedback also identified treasure as being somewhat important
