@@ -79,7 +79,9 @@
 
 == September 30 ==
   * Standup
-    * Anyone remember what happened on this date?
+    * Second player's cannon and turn logic added
+    * Physical objects now fly from the cannon when fired
+  * Lab session: Worked on fixing cannon rotation bug
 
 == October 5 ==
   * Standup
