@@ -105,3 +105,29 @@
   * Reminded class to use the issue tracker
   * Identified highest priority activities: scores, turn taking through physical settling as opposed to absolute time, monkeys as objects
   * User feedback also identified treasure as being somewhat important
+
+== October 12 ==
+
+  * Standup
+    * Completed: 
+      * Contact listener, taking into account materials, projectiles, impact velocity, damage computation, etc.
+      * Scoring -- points awarded for damage, etc.  
+      * Better internal implementation of pieces (and the fortress they belong to), and callbacks.
+      * Monkeys are now physical objects
+      * Added new class of monkeys &mdash; the watermelon monkeys, which are harder to destroy
+      * Settling computation to determine end of turn
+  * Next up: 
+    * Tweaking physics properties to improve the feel of the game
+    * Making the cannon a physics object (so objects can bounce off)
+    * Level termination condition
+    * Different fortress materials
+    * Refactor projectiles to remove hardcoded properties and make them true properties
+  * Might want to investigate the game Worms to get other ideas on implementing turn-based games with multiple launchers
+  * Long term (nice to have):
+    * Textured ground
+  * For discussion: 
+    * lookup table for damage computation
+    * the game is slowing down on Firefox.  This is being worked on!
+
+
+    
