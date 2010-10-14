@@ -100,7 +100,7 @@
     * Fortress object implemented
     * Textures and physical properties now exist for fortress pieces. The first texture implemented is wood.  Setting the properties are set programmatically; in the future these should come from a level editor
     * The launcher UI has been improved (angle clamping, fine tuning via keyboard, scroll disable during aiming)
-    * Monkeys-as-phyiscal objects still in progress
+    * Monkeys-as-physical objects still in progress
   * Discussion with Prof. Dionisio on progess and UI things to consider
   * Reminded class to use the issue tracker
   * Identified highest priority activities: scores, turn taking through physical settling as opposed to absolute time, monkeys as objects
@@ -126,16 +126,17 @@
   * Long term (nice to have):
     * Textured ground
   * For discussion: 
-    * lookup table for damage computation
-    * the game is slowing down on Firefox.  This is being worked on!
+    * Lookup table for damage computation (idea from Dondi)
+    * The game is slowing down on Firefox.  This is being worked on!
   * Discussion on frame rates
 
 == October 14 ==
 
-  * Standup
+  * Standup:
     * Completed
       * Turn ending at all objects settling, projectiles as individual objects, current weapon in UI, stone fortress piece.
-      * Next up
-        * We are now using the issue tracker in Google Code for these.  Students added new issues during class as they were discussed.
+    * Next up:
+      * We are now using the issue tracker in Google Code for these.  Students added new issues during class as they were discussed.
   * Group discussions on project scope, progress, and priorities for upcoming tasks.
-  * *Lecture*: QUnit -- the JavaScript Unit Testing Framework
+  * Brief look at article on the [http://www.wired.com/wiredscience/2010/10/physics-of-angry-birds/ Physics of Angry Birds]
+  * *Lecture*: QUnit -- the !JavaScript Unit Testing Framework
