@@ -114,7 +114,7 @@
       * Scoring -- points awarded for damage, etc.  
       * Better internal implementation of pieces (and the fortress they belong to), and callbacks.
       * Monkeys are now physical objects
-      * Added new class of monkeys &mdash; the watermelon monkeys, which are harder to destroy
+      * Added new class of monkeys -- the watermelon monkeys, which are harder to destroy
       * Settling computation to determine end of turn
   * Next up: 
     * Tweaking physics properties to improve the feel of the game
@@ -130,5 +130,12 @@
     * the game is slowing down on Firefox.  This is being worked on!
   * Discussion on frame rates
 
+== October 14 ==
 
-    
+  * Standup
+    * Completed
+      * Turn ending at all objects settling, projectiles as individual objects, current weapon in UI, stone fortress piece.
+      * Next up
+        * We are now using the issue tracker in Google Code for these.  Students added new issues during class as they were discussed.
+  * Group discussions on project scope, progress, and priorities for upcoming tasks.
+  * *Lecture*: QUnit -- the JavaScript Unit Testing Framework
