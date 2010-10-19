@@ -140,3 +140,21 @@
   * Group discussions on project scope, progress, and priorities for upcoming tasks.
   * Brief look at article on the [http://www.wired.com/wiredscience/2010/10/physics-of-angry-birds/ Physics of Angry Birds]
   * *Lecture*: QUnit -- the !JavaScript Unit Testing Framework
+
+== October 19 ==
+
+  * Standup
+    * Completed
+      * Alex created a new cannon, new banana, and a collection of demo monkey sprites
+      * Progress on switching from launcher module to launcher "type" (pending commit)
+      * Win condition
+      * Monkeys and fortress pieces destroyed when knocked off screen
+    * Next up: 
+      * Bug fixes
+  * Bugs identified:
+    * Camera follows projectile, making damage animation occur off screen
+    * Rendering problem occurs sometimes
+    * Projectiles don't hurt the monkeys. The effect is hilarious as hitting monkeys can make them fly hundreds of meters through the air.... but it isn't realistic.
+    * We'd like the cannon wheels stationary
+  * Also had a class-long brainstorming session for project next steps.  Very productive.
+  * *Lecture and Discussion* on Ben Cherry's blog article on [http://www.adequatelygood.com/2010/7/Writing-Testable-JavaScript writing testable JavaScript]
