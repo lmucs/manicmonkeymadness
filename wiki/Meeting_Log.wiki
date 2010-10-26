@@ -170,3 +170,21 @@
   * Announcements: Upcoming Open House, Job offer in West Hollywood
   * *Homework*: read about PHUN (the graphics engine!); watch video on JavaScript game engine development
   * *Discussion*: "Super" methods in JavaScript
+
+== October 26 ==
+
+  * Standup
+    * Completed and in progress
+      * A JavaScript framework for differential inheritance
+      * Began investigating HTML 5 audio
+      * Began enhancement of HTML page to show help and link to googlecode page, etc.
+      * New monkey sprites have arrived!
+      * Some cannon improvements
+    * Next up
+      * Refinement and documentation of differential inheritance framework
+      * Help as a div overlay
+      * Overcome box2D limitation of rotation only about the center by using joints
+      * Projectile launch point
+      * Initial sound integration (callbacks will occur later)
+  * *Discussion*: Base64
+  * Discussion on issue found by chief tester: monkeys falling behind the cannon can't be easily killed.  Should we raise the fortress, or create a projectile that passes through the cannon, or both?
