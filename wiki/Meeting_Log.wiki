@@ -168,14 +168,14 @@
       * Big improvements to cannon
       * Bugfix re damage computation (projectile hits were not being counted)
   * Announcements: Upcoming Open House, Job offer in West Hollywood
-  * *Homework*: read about PHUN (the graphics engine!); watch video on JavaScript game engine development
-  * *Discussion*: "Super" methods in JavaScript
+  * *Homework*: read about [http://www.phunland.org PHUN] (the graphics engine!); watch video on !JavaScript game engine development
+  * *Discussion*: "Super" methods in !JavaScript
 
 == October 26 ==
 
   * Standup
     * Completed and in progress
-      * A JavaScript framework for differential inheritance
+      * A !JavaScript framework for differential inheritance
       * Began investigating HTML 5 audio
       * Began enhancement of HTML page to show help and link to googlecode page, etc.
       * New monkey sprites have arrived!
