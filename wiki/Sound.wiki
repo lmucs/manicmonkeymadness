@@ -12,4 +12,14 @@ Like images, sounds are added through in assets.js, through a hidden method that
 
 The file extension should either be .ogg, or .mp3.  If you want the sound to be able to play in all major browsers, you should include both. _Don't include the file extension in the string containing the source_.  The soundFromSource automatically adds the .ogg or .mp3 extension, depending on the browser.  For example, I included a monkeys.ogg AND a monkeys.mp3. So in the code above, if the browser is capable of playing ogg's, it will add the .ogg extension, otherwise it will add an .mp3 one.  If the browser plays neither, the sound wont play.
 
-*Careful.*  If you type the extension incorrectly, there won't be any error in the console, the sound simply won't play.
+*CAREFUL*  If you type the extension incorrectly or the source file doesn't exist, there won't be any error in the console, the sound simply won't play.
+
+=Referencing a Sound=
+
+soundFromSource actually returns a wrapper around an javscript audio file so that I could add an extra method called toggle(), which does exactly what you'd think--plays the sound if its paused or vice versa.  In addition, it still has the same play() and pause() functions.  An example call might be 
+
+{{{m3.assets.sfx.monkeyGrunt.play();}}}
+
+=Sound Module=
+
+I also added a module that has two methods: toggleSound() and soundOn().  The first one toggles ALL sound, effects as well as music.  The second returns true if the sound is currently on or false if not. 
