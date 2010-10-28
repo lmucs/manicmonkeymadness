@@ -1,3 +1,5 @@
+#summary Documentation for sound
+
 =Introduction=
 
 Because of it's novelty, documentation for the <audio> tag in HTML5 is scarce, but I was able to scrape enough from google to use it to come up with a way of doing sound effects without having to use any flash. This wiki tells a little bit about how sound is done in our project, and more importantly, how to add and reference your own sound effects to the code. 
