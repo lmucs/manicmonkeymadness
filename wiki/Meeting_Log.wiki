@@ -174,13 +174,13 @@
 == October 26 ==
 
   * Standup
-    * Completed and in progress
+    * Completed and in progress:
       * A !JavaScript framework for differential inheritance
       * Began investigating HTML 5 audio
       * Began enhancement of HTML page to show help and link to googlecode page, etc.
       * New monkey sprites have arrived!
       * Some cannon improvements
-    * Next up
+    * Next up:
       * Refinement and documentation of differential inheritance framework
       * Help as a div overlay
       * Overcome box2D limitation of rotation only about the center by using joints
@@ -188,3 +188,52 @@
       * Initial sound integration (callbacks will occur later)
   * *Discussion*: Base64
   * Discussion on issue found by chief tester: monkeys falling behind the cannon can't be easily killed.  Should we raise the fortress, or create a projectile that passes through the cannon, or both?
+
+== October 28 ==
+
+  * Standup
+    * Completed
+      * Help implemented with div overlay
+      * Sound now working
+        * Original music composed for the background theme
+        * Monkeys grunt when taking damage; scream when dying
+      * Projectiles now emanate from launch point
+    * In progress
+      * Platforms for fortresses  
+    * Next up
+      * Velocity checks on timer
+      * Minified JQuery
+      * New data structure for projectiles
+      * Level editor (to allow players to create their own fortresses)
+  * Sound issues: sound not playing on Safari --- need to reorder mp3 and ogg links?
+  * Brainstorming: Made fun list of potential new launchers and projectiles
+ 
+== November 2 ==
+
+  * Standup
+    * Completed
+      * Velocity checks on timer
+      * More sound improvements
+      * Sound page added to wiki
+      * Ground image from Alex - consensus is that it looks good
+      * Banana uses custom polygon
+      * Work on joint manipulation -- very frustrating, though, no decent box2d documentation for !JavaScript; all tutorials are in !ActionScript
+      * Minfied JQuery
+      * Data structure for bananas
+      * Triple banana projectile
+      * playstate refactoring
+      * Some progress on level editor
+      * Bugfixes (win condition)
+      * UI component ... number of monkeys remaining
+      * Fortress creatiion no longer hardcoded -- fortresses are "read" from JSON structures
+    * Next up
+      * Get joints working
+      * Exploding projectiles
+  * *Discussion*: Benefits and risks of adding methods to built-in prototypes in !JavaScript.
+  * *Discussion*: Sprite code needs to be extended to allow arbitrary polygons; currently we only support boxes and circles.
+  * Brainstorming on ways to implement explosions
+    * Spawn (in)visible small projectiles?
+    * Apply force radially to all objects within a fixed distance of the "bomb"
+    * We should implement different techniques and evaluate
+  * Outstanding bugs and issues:
+    * We still have placeholder graphics -- give suggestions to Alex
