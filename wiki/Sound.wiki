@@ -16,7 +16,7 @@ Like images, sounds are added through in assets.js, through a hidden method that
 
 The file extension should either be .ogg, or .mp3.  If you want the sound to be able to play in all major browsers, you should include both. _Don't include the file extension in the string containing the source_.  The soundFromSource automatically adds the .ogg or .mp3 extension, depending on the browser.  For example, I included a monkeys.ogg AND a monkeys.mp3. So in the code above, if the browser is capable of playing ogg's, it will add the .ogg extension, otherwise it will add an .mp3 one.  If the browser plays neither, the sound wont play.
 
-*CAREFUL*  If you type the extension incorrectly or the source file doesn't exist, there won't be any error in the console, the sound simply won't play.
+*CAREFUL  If you type the extension incorrectly or the source file doesn't exist, there won't be any error in the console, the sound simply won't play.*
 
 =Referencing a Sound=
 
@@ -26,4 +26,21 @@ soundFromSource actually returns a wrapper around an javscript audio file so tha
 
 =Sound Module=
 
-I also added a module that has two methods: toggleSound() and soundOn().  The first one toggles ALL sound, effects as well as music.  The second returns true if the sound is currently on or false if not. 
+I also added a module that has two methods for sound: toggleSound and soundOn.  The first one toggles ALL sound, effects as well as music.  The second returns true if the sound is currently on or false if not. 
+
+For music, instead of trying to find out what song is currently playing, pausing it, and playing your own song, this can easily be fixed with m3.sound.changeMusic.  This method pauses the old song, stores the current song, and plays it if true is passed in.  For example, when the main menu state is loaded, I want the current song to be monkeys:
+
+{{{m3.sound.changeMusic(m3.assets.music.monkeys, true);}}}
+
+Then, when the first shot is taken:
+
+{{{ 
+if(!this.first) {
+    m3.sound.changeMusic(m3.assets.music.rideTheLightning, true);
+    this.first = true;
+} 
+}}}
+
+*It is better to use changeMusic then to just use m3.assets.music.your_song.play(), since changeMusic only keeps track of the song it was passed.* If you use m3.assets.music.you_song.play(), you will have to worry out playing and pausing it yourself.  If you want to just play or pause the current song and not change it, use playMusic and pauseMusic.
+
+Lastly, toggleMusic asks as a master switch for all music.  As long as the music is off, it won't play at all.
