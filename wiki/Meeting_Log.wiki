@@ -245,4 +245,7 @@
     * Work on explosions --- current blocker due to a reported bug in box2d's world.query.  Currently experimenting with workarounds.
     * Progress on level editor
     * Implementation of sound and music on/off buttons
+  * Next up
+    * need to complete in-progress items
+    * "Little triangle" to track projectiles that are above viewport
   * Discussion on whether or not players can do damage to other players' launchers. Good idea since it introduces strategy, and is "better than" Angry Birds and Crush the Castle.
