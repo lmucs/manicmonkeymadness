@@ -237,3 +237,12 @@
     * We should implement different techniques and evaluate
   * Outstanding bugs and issues:
     * We still have placeholder graphics -- give suggestions to Alex
+
+== November 4 ==
+
+  * Standup
+    * Progress on joints (bugfix: objects with joints were not moving  unless they had mass)
+    * Work on explosions --- current blocker due to a reported bug in box2d's world.query.  Currently experimenting with workarounds.
+    * Progress on level editor
+    * Implementation of sound and music on/off buttons
+  * Discussion on whether or not players can do damage to other players' launchers. Good idea since it introduces strategy, and is "better than" Angry Birds and Crush the Castle.
