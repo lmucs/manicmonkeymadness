@@ -1,0 +1,27 @@
+#summary A brainstorming-based list of candidate projectiles and launchers.
+
+= ILaunchers =
+
+* Cannon
+* Slingshot
+* Teeter totter
+* Vine (for swinging monkeys)
+* Tree branches (used as a baseball bat)
+
+= Projectiles =
+
+* Rock
+* Banana - super bouncy
+* Banana - ripe
+* Banana - exploding
+* Banana bunch (3 bananas)
+* Watermelon
+* Watermelon - exploding
+* Monkeys (shot from cannons or swinging on vines)
+* Guano
+* Skulls
+* Monkeys riding missiles (a la Dr Strangelove)
+
+== Projectile-like Weapons ==
+
+* Charging elephants or rhinos
