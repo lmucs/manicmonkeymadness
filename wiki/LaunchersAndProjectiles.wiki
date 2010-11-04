@@ -1,6 +1,6 @@
 #summary A brainstorming-based list of candidate projectiles and launchers.
 
-= ILaunchers =
+= Launchers =
 
 * Cannon
 * Slingshot
