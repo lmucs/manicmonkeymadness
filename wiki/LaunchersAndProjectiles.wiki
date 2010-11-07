@@ -7,9 +7,11 @@
   * Teeter totter
   * Vine (for swinging monkeys)
   * Tree branches (used as a baseball bat)
+  * Catapult (like from castles) 
 
 = Projectiles =
 
+  * Birds with powers :)
   * Rock
   * Banana - super bouncy
   * Banana - ripe
@@ -21,7 +23,12 @@
   * Guano
   * Skulls
   * Monkeys riding missiles (a la Dr Strangelove)
+  * Slime bomb (makes everything on enemies' side sticky)
 
 = Projectile-like Weapons =
 
+  * BB Gun :)
   * Charging elephants or rhinos
+  * Bazooka (able to use every 5 turns) :)
+
+(all suggestions in this changeset are Aidan’s)
