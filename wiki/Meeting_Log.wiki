@@ -249,3 +249,18 @@
     * need to complete in-progress items
     * "Little triangle" to track projectiles that are above viewport
   * Discussion on whether or not players can do damage to other players' launchers. Good idea since it introduces strategy, and is "better than" Angry Birds and Crush the Castle.
+
+== November 9 ==
+
+  * Standup
+    * Level editor progress
+    * Joints working
+    * Explosion work is underway, but he initial implementation needs a lot of tuning (Issue 26)
+    * An initial tracker for offscreen projectiles has been implemented
+  * Next up
+    * Level editor completion (ETA is 9 days)
+    * A new version of box2D has been released; Matt will investigate.
+    * New projectiles planned in the next couple days
+    * Explosions need refinement
+  * *Discussion* on the non-standard {{{__proto__}}} property and how to avoid its use.
+  * *Homework* Read !McConnell Chapters 1 and 2, skim Chapters 3-9.
