@@ -264,3 +264,19 @@
     * Explosions need refinement
   * *Discussion* on the non-standard {{{__proto__}}} property and how to avoid its use.
   * *Homework* Read !McConnell Chapters 1 and 2, skim Chapters 3-9.
+
+== November 11 ==
+
+  * Standup:
+    * Level editor progress: new pieces, generation of JSON
+    * Box2D upgrade progress
+    * Exploding watermelon progress: the physics of the explosions are worked out and implemented, but the projectile is not shown blowing up.
+    * Arrow tracking of multiple bananas is now implemented
+  * Next up:
+    * Box2D upgrade completion
+    * Animation of projectiles exploding
+  * Discussion on the use of sprite sheets to show projectiles exploding
+  * Discussion of projectile representations to include icons
+  * Discussion of !JavaScript games and game engines in general, with a look at [http://www.phoboslab.org/biolab/ Biolab Disaster].
+  * *Lecture*: Basics of networks and internetworks, protocols, layers, and services, with a tour of the IANA port mappings.
+  * *Assignments*: Continue reading !McConnell, research Biolab Disaster (including watching the video on the making of the game), research the new HTML5 features Web Workers and Offline Operation.
