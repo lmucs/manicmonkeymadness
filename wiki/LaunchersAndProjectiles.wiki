@@ -8,6 +8,7 @@
   * Vine (for swinging monkeys)
   * Tree branches (used as a baseball bat)
   * Catapult (like from castles) 
+  * board stuck to ground
 
 = Projectiles =
 
@@ -24,6 +25,7 @@
   * Skulls
   * Monkeys riding missiles (a la Dr Strangelove)
   * Slime bomb (makes everything on enemies' side sticky)
+  * grenade
 
 = Projectile-like Weapons =
 
