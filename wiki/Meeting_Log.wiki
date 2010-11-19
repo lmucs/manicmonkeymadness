@@ -280,3 +280,28 @@
   * Discussion of !JavaScript games and game engines in general, with a look at [http://www.phoboslab.org/biolab/ Biolab Disaster].
   * *Lecture*: Basics of networks and internetworks, protocols, layers, and services, with a tour of the IANA port mappings.
   * *Assignments*: Continue reading !McConnell, research Biolab Disaster (including watching the video on the making of the game), research the new HTML5 features Web Workers and Offline Operation.
+
+== November 15 ==
+
+  * Brief standup
+  * Small demo of recently added features
+  * *Discussion* about persistence: should we make our own webapp (either hosted locally or via GAE) or should be use a social gaming service?
+  * Serious planning session for remainder of term:
+    * Cannon fixes - Matt
+    * New Music - Anthony
+    * Fort validation (prevention of illegal or overly complex forts) - Jarod
+    * More sophisticated play, e.g. restricted weapon selection) - Anthony
+    * Icon improvments (sound, music, help) - David and Alex
+    * Main menu L &amp; F - Alex
+    * More fort pieces - Matt
+    * Explosion effects - David
+    * Treasure - David
+    * Decision on local web app, GAE, or SGN/Crystal - Everyone
+    * Start Prezi for final presentation - Ray
+    * Morph wiki into report format - Ray
+    * Create a YouTube video, demoing the game - David
+    * Submit to Chromeexperiments.com - Ray
+    * Ajax implementation (to talk to persistence layer) - Everyone
+    * More UAT - Aidan
+
+== November 17 ==
