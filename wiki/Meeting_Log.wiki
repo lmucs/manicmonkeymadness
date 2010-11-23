@@ -281,7 +281,7 @@
   * *Lecture*: Basics of networks and internetworks, protocols, layers, and services, with a tour of the IANA port mappings.
   * *Assignments*: Continue reading !McConnell, research Biolab Disaster (including watching the video on the making of the game), research the new HTML5 features Web Workers and Offline Operation.
 
-== November 15 ==
+== November 16 ==
 
   * Brief standup
   * Small demo of recently added features
@@ -305,3 +305,35 @@
     * More UAT - Aidan
 
 == November 17 ==
+
+  * Free lab day!  Everyone showed up, coded, and planned, and discussed.
+
+== November 23 ==
+
+  * Standup
+    * Work completed
+      * Finished port to Box2d 2.1 (HUGE DEAL)
+      * Added helmet-spike monkey
+      * Poof animation for dying monkeys
+      * Rudimentary exploding watermelon animation
+      * Cannon fixes
+      * Added a "Debug Draw" mode
+      * Can now move the cannon with the keyboard (much more precise)
+      * Help buttons now in canvas
+      * Many fixes related to new Box2D behavior
+      * Treasure!
+      * Different versions of games (e.g. last monkey standing, demolition derby)
+      * Level editor limitations (point values per piece, max number of monkeys)
+      * Sophisticated level-editor feedback
+    * In progress
+      * Weapon "unlocking" -- certain weapons become available per turn
+    * Discussion
+      * Box2D 2.1 has rewritten collision detection logic, making the game play different (the monkeys are harder to kill)
+      * Debugging feature -- unlock all weapons
+      * Strontium forts? Nukes? Chicken sandwiches?
+  * Next up
+    * Video
+
+== November 25 ==
+
+  * Turkey
