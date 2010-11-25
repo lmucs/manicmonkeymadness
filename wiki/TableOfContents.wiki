@@ -20,6 +20,6 @@
     * [Comments_from_Aidan Comments from Aidan]
   # Deployment
   # Appendix: Administration and Planning
-    * [Meeting_Notes Meeting Notes]
+    * [Meeting_Log Meeting Notes]
   # Appendix: Design Skecthes, Prototypes, and Whitepapers
   # Appendix: Future Work
