@@ -325,14 +325,15 @@
       * Different versions of games (e.g. last monkey standing, demolition derby)
       * Level editor limitations (point values per piece, max number of monkeys)
       * Sophisticated level-editor feedback
-    * In progress
+   * In progress
       * Weapon "unlocking" -- certain weapons become available per turn
-    * Discussion
-      * Box2D 2.1 has rewritten collision detection logic, making the game play different (the monkeys are harder to kill)
-      * Debugging feature -- unlock all weapons
-      * Strontium forts? Nukes? Chicken sandwiches?
+  * Discussion
+    * Box2D 2.1 has rewritten collision detection logic, making the game play different (the monkeys are harder to kill)
+    * Debugging feature -- unlock all weapons
+    * Strontium forts? Nukes? Chicken sandwiches?
   * Next up
     * Video
+  * *Lecture*: Web application architectures: servers, clients, HTTP, Ajax
 
 == November 25 ==
 
