@@ -11,8 +11,10 @@ Box2D consists of 3 interconnected modules that together simulate a physics envi
 
 The PhysicsObject type is a wrapper around a Box2D object instance consisting of a body and shape.  It also contains data such as sprites and other attributes.  The contact module implements the Box2D contact listener for collision detection that computes the impact velocities for awarding damage.  The world module creates the Box2D world and steps the world simulation at the appropriate time and interval.  It has convenience methods to create physical objects.  These methods are usually called in the constructors for other types.  The signatures of these calls are:
 
-{{{  createBox(x, y, width, height, angle, fixed, density, restitution, friction)
+{{{  
+   createBox(x, y, width, height, angle, fixed, density, restitution, friction)
    createCircle(x, y, radius, fixed, density, restitution, friction)
-   createPoly(x, y, points, angle, fixed, density, restitution, friction) }}}
+   createPoly(x, y, points, angle, fixed, density, restitution, friction) 
+}}}
 
 The parameters include the x and y coordinates in meters of the object's centroid. Fixed is a Boolean that determines if an object will be fixed at a location or will interact with forces such as gravity. Density, friction, and restitution (bounciness) are Box2D physical properties of an object (refer to the API for acceptable values).  For createPoly, an array of points are taken that are about that objects centroid as its origin.
