@@ -8,7 +8,6 @@
     * [Game_Engine]
     * [User_Interface User Interface]
     * [Input]
-    * [Box2D]
     * [Sprites]
     * [Sound]
     * [LaunchersAndProjectiles Launchers and Projectiles]
