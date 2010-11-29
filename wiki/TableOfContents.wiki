@@ -5,7 +5,7 @@
   # [Game_Architecture Project Architecture]
   # Design
     * Modules and Types
-    * Game Engine
+    * [Game_Engine]
     * [User_Interface User Interface]
     * [Input]
     * [Box2D]
