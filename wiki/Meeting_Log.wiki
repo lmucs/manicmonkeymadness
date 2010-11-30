@@ -338,3 +338,20 @@
 == November 25 ==
 
   * Turkey
+
+== November 30 ==
+
+  * Standup
+    * Work completed
+      * Fixed issues with Demolition Derby game style.
+      * Updated help menu and added "H" hotkey to toggle it.
+      * Acquired new sprites.
+      * Began using Google App Engine.
+      * Added a shot counter for each player.
+      * Almost fully implemented unlockable weapons (some bugs still)
+      * Edit level mode now limits the number of each monkey type.
+  * Brief Discussion
+      * Reviewed previous Serengeti presentation to get ideas.
+      * Discussed necessary slides for presentation.
+  * Notes
+      * Presentation date set to December 16 from 2-4p.m.
