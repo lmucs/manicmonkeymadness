@@ -355,3 +355,16 @@
       * Discussed necessary slides for presentation.
   * Notes
       * Presentation date set to December 16 from 2-4p.m.
+
+== December 2 ==
+
+  * Announcements: 
+    * Hoping to get Dave Pedowitz from FriendBuy.com as guest speaker next week
+  * Standup
+    * GAE work in progress (Matt)
+    * Exploding watermelon bugs - some fixed, but some contact issues remain (David)
+    * Mirroring of forts is done!  (Jarod) Solution was to make rotation angles relative to vertical, rather than the horizontal.  Had an interesting discussion about this.
+    * Anthony had a theology paper due so he didn't have much to report, other than fixing the weapon unlocking bug.
+  * Prezi explorations
+  * Saw some Angry Birds three star videos on youtube, and read user comments.  Naturally this lead to a discussion of http://xkcd.com/481/
+  * In class discussions among developers regarding friction, points at which Box2D samples the world, odd camera behaviors, etc.
