@@ -368,3 +368,21 @@
   * Prezi explorations
   * Saw some Angry Birds three star videos on youtube, and read user comments.  Naturally this lead to a discussion of http://xkcd.com/481/
   * In class discussions among developers regarding friction, points at which Box2D samples the world, odd camera behaviors, etc.
+
+=== December 7 ===
+
+  * Standup
+    * Work completed
+      * New default fort
+      * Cut down image pixel sizes and image file size (700KB -> 4KB) to improve performance
+      * New original music!! (rather than asking for Metallica's permission to use RIde The Lighting)
+      * "Shots Left" widget
+      * Clickable weapons box
+      * New fort pieces and redid old ones
+     * Almost done
+      * GAE piece is 95% done
+      * Video almost done
+    * Next up
+      * Damage states for new pieces
+  * Go over prezi
+  * Discuss 10 Essential Skills for Developers
