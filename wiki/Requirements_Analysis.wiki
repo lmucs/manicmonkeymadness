@@ -1,16 +1,28 @@
-#summary Rough Requirements Analysis.
 #labels Phase-Requirements
-
 = Rough Requirements =
 
-M3 will run as an application on a web page, inside a {{{<canvas>}}} element.
+M3 shall run as an application on a web page, inside a {{{<canvas>}}} element.
 
-The top level subsystems, or modules, will include:
+The game shall run on Firefox, Chrome, Opera, and Safari.
+
+The top level subsystems, or modules, shall include:
 
   * Domain objects: player, fortress, monkey, weapon, launcher, etc.
   * Physics: collision detection, trajectory computation
   * Graphics: sprites, background images, animation engine
-  * Sound (hopefully native JavaScript, might have to go to Flash)
+  * Sound (hopefully native HTML5, might have to go to Flash)
   * Game logic: turn taking, scoring
   * Persistence: database
   * Service layer: to interact with the database
+
+= Detailed Requirements =
+
+  * The game shall be launched from a hosted location at a URL of /
+  * The game shall consist of a single page containing
+    * A canvas which scrolls horizontally
+    * A link to the main project page
+    * (Optional) A link to run the test suite under QUnit
+    * A link to show help as an overlay div
+  * The game shall begin with configuration options
+    * ...
+    * ...
