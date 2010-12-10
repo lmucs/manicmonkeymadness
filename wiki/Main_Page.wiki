@@ -1,3 +1,7 @@
+----
+
+=== Welcome ===
+
 This is the official wiki for the LMU CMSI 401 Software Engineering Laboratory course for 2010.  
 
 The wiki also functions as the traditional project notebook.  All design notes, documents, reports, discussion, and other artifacts related to the course are kept here.  The content has been thoughtfully organized and indexed; guests can browse the project artifacts in the order they appear in the table of contents to the left.
