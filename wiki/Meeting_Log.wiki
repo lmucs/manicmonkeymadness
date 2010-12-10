@@ -1,5 +1,6 @@
 #summary Activity log for class meetings.
 #labels Featured
+----
 
 == August 31 ==
   * Reviewed course [http://www.cs.lmu.edu/~ray/classes/se/syllabus/ syllabus].
@@ -92,10 +93,9 @@
   * Discussion about mouse events, and how click events are queued
   * Discussion of different levels (DOM 1 and DOM 2) event handling
   * *Lecture*: jQuery
-  * Advice to check out Eich's video lecture on the history of JavaScript
+  * Advice to check out [http://brendaneich.com/2010/07/a-brief-history-of-javascript/ Eich's video lecture] on the history of !JavaScript
 
 == October 7 ==
-
   * Standup
     * Fortress object implemented
     * Textures and physical properties now exist for fortress pieces. The first texture implemented is wood.  Setting the properties are set programmatically; in the future these should come from a level editor
@@ -107,7 +107,6 @@
   * User feedback also identified treasure as being somewhat important
 
 == October 12 ==
-
   * Standup
     * Completed: 
       * Contact listener, taking into account materials, projectiles, impact velocity, damage computation, etc.
@@ -131,7 +130,6 @@
   * Discussion on frame rates
 
 == October 14 ==
-
   * Standup:
     * Completed
       * Turn ending at all objects settling, projectiles as individual objects, current weapon in UI, stone fortress piece.
@@ -142,7 +140,6 @@
   * *Lecture*: QUnit -- the !JavaScript Unit Testing Framework
 
 == October 19 ==
-
   * Standup
     * Completed
       * Alex created a new cannon, new banana, and a collection of demo monkey sprites
@@ -160,7 +157,6 @@
   * *Lecture and Discussion* on Ben Cherry's blog article on [http://www.adequatelygood.com/2010/7/Writing-Testable-JavaScript writing testable JavaScript]
 
 == October 21 ==
-
   * Standup
     * Completed
       * Launcher is now a physical object (generated much discussion about refactoring!)
@@ -172,7 +168,6 @@
   * *Discussion*: "Super" methods in !JavaScript
 
 == October 26 ==
-
   * Standup
     * Completed and in progress:
       * A !JavaScript framework for differential inheritance
@@ -190,7 +185,6 @@
   * Discussion on issue found by chief tester: monkeys falling behind the cannon can't be easily killed.  Should we raise the fortress, or create a projectile that passes through the cannon, or both?
 
 == October 28 ==
-
   * Standup
     * Completed
       * Help implemented with div overlay
@@ -209,7 +203,6 @@
   * Brainstorming: Made fun list of potential new launchers and projectiles
  
 == November 2 ==
-
   * Standup
     * Completed
       * Velocity checks on timer
@@ -239,7 +232,6 @@
     * We still have placeholder graphics -- give suggestions to Alex
 
 == November 4 ==
-
   * Standup
     * Progress on joints (bugfix: objects with joints were not moving  unless they had mass)
     * Work on explosions --- current blocker due to a reported bug in box2d's world.query.  Currently experimenting with workarounds.
@@ -251,7 +243,6 @@
   * Discussion on whether or not players can do damage to other players' launchers. Good idea since it introduces strategy, and is "better than" Angry Birds and Crush the Castle.
 
 == November 9 ==
-
   * Standup
     * Level editor progress
     * Joints working
@@ -266,7 +257,6 @@
   * *Homework* Read !McConnell Chapters 1 and 2, skim Chapters 3-9.
 
 == November 11 ==
-
   * Standup:
     * Level editor progress: new pieces, generation of JSON
     * Box2D upgrade progress
@@ -282,7 +272,6 @@
   * *Assignments*: Continue reading !McConnell, research Biolab Disaster (including watching the video on the making of the game), research the new HTML5 features Web Workers and Offline Operation.
 
 == November 16 ==
-
   * Brief standup
   * Small demo of recently added features
   * *Discussion* about persistence: should we make our own webapp (either hosted locally or via GAE) or should be use a social gaming service?
@@ -299,17 +288,15 @@
     * Decision on local web app, GAE, or SGN/Crystal - Everyone
     * Start Prezi for final presentation - Ray
     * Morph wiki into report format - Ray
-    * Create a YouTube video, demoing the game - David
+    * Create a !YouTube video, demoing the game - David
     * Submit to Chromeexperiments.com - Ray
     * Ajax implementation (to talk to persistence layer) - Everyone
     * More UAT - Aidan
 
-== November 17 ==
-
+== November 18 ==
   * Free lab day!  Everyone showed up, coded, and planned, and discussed.
 
 == November 23 ==
-
   * Standup
     * Work completed
       * Finished port to Box2d 2.1 (HUGE DEAL)
@@ -336,11 +323,9 @@
   * *Lecture*: Web application architectures: servers, clients, HTTP, Ajax
 
 == November 25 ==
-
-  * Turkey
+  * Ate turkey
 
 == November 30 ==
-
   * Standup
     * Work completed
       * Fixed issues with Demolition Derby game style.
@@ -357,9 +342,8 @@
       * Presentation date set to December 16 from 2-4p.m.
 
 == December 2 ==
-
   * Announcements: 
-    * Hoping to get Dave Pedowitz from FriendBuy.com as guest speaker next week
+    * Hoping to get Dave Pedowitz from !FriendBuy.com as guest speaker next week
   * Standup
     * GAE work in progress (Matt)
     * Exploding watermelon bugs - some fixed, but some contact issues remain (David)
@@ -370,7 +354,6 @@
   * In class discussions among developers regarding friction, points at which Box2D samples the world, odd camera behaviors, etc.
 
 === December 7 ===
-
   * Standup
     * Work completed
       * New default fort
@@ -385,4 +368,16 @@
     * Next up
       * Damage states for new pieces
   * Go over prezi
-  * Discuss 10 Essential Skills for Developers
+  * Discuss one random blogger's take on [http://blogs.techrepublic.com.com/10things/?p=643 10 things developers should know in the next 5 years].
+
+=== December 9 ===
+  * Standup
+    * Completed: new sound effects, many cosmetic changes, new logo, etc.
+    * Still working on the collision bug -- why do we sometimes miss callbacks?  box2d bug?
+  * *Guest Presentation* from Dave Pedowitz and Patrick Yee currently of friendbuy.com based in !WeHo.  Talk covered
+      * Background on the presenters - quite impressive!
+      * About the tech industry in L.A. and differences between the biz here and N.Y. and S.F.
+      * Business model of friendbuy, and of social media in general
+      * The friendbuy architecture and main technology stack
+  * Fleeting discussion on the upcoming final presentation
+  * Filled out course evaluations
