@@ -11,5 +11,6 @@ The Manic Monkey Madness Team consists of
   * David Kikuta
   * Matt Kronk
   * Jarod Long
+  * Alex Hudson
 
-Some professors and alumni registered as committers, or provided insight, help, advice, or pestering. Thanks to Dondi Dionisio and B.J. Johnson.
+Some professors and alumni registered as committers, or provided insight, help, advice, or pestering. Thanks to Dondi Dionisio, B.J. Johnson, Caskey Dickson, and Don Murphy.
