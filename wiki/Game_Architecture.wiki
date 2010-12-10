@@ -1,6 +1,7 @@
 = Physical Architecture =
 
 The game is physically packaged as a project with the following directory structure:
+{{{
 .
 ├── src
 │   ├── META-INF
@@ -28,6 +29,7 @@ The game is physically packaged as a project with the following directory struct
     ├── styles
     └── test
         └── js
+}}}
 
 The game is deployed as a single war file on the Google App Engine.
 
