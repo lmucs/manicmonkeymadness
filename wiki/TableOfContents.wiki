@@ -1,4 +1,4 @@
-  # [Main_Page Manic Monkey Madness Main Page]
+  # [Main_Page Welcome to the Madness]
   # [Project_Summary Project Summary]
   # [Requirements_Analysis Requirements Analysis]
   # [Use_Cases Use Cases]
@@ -14,11 +14,12 @@
   # Implementation
     * HTML
     * Canvas
-    * Mobile Web
+    * Original Music
   # Testing
     * [Comments_from_Aidan Comments from Aidan]
+    * Front End Testing with QUnit
+    * Back End Testing with JUnit
   # Deployment
-  # Appendix: Administration and Planning
-    * [Meeting_Log Meeting Notes]
+  # [Meeting_Log Appendix: Meeting Notes]
   # Appendix: Design Skecthes, Prototypes, and Whitepapers
   # Appendix: Future Work
