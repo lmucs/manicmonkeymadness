@@ -1,73 +1,108 @@
-#summary Documentation for the game's architecture.
+= Physical Architecture =
 
-= Summary =
+The game is physically packaged as a project with the following directory structure:
+.
+├── src
+│   ├── META-INF
+│   └── manicmonkeymadness
+└── war
+    ├── WEB-INF
+    │   ├── appengine-generated
+    │   ├── classes
+    │   │   ├── META-INF
+    │   │   └── manicmonkeymadness
+    │   └── lib
+    ├── audio
+    │   ├── effects
+    │   └── music
+    ├── images
+    │   ├── backgrounds
+    │   ├── icons
+    │   └── sprites
+    ├── scripts
+    │   ├── box2d-2.1
+    │   ├── modules
+    │   │   └── ui
+    │   ├── states
+    │   └── types
+    ├── styles
+    └── test
+        └── js
+
+The game is deployed as a single war file on the Google App Engine.
+
+= Logical Architecture =
+
+The major divisons in the project are:
+
+  * Java classes for the backend (server-side)
+  * The main HTML page
+  * JavaScript front-end code
+  * Stylesheets
+  * Images
+  * Audio
+
+== JavaScript Modules ==
 
 The major components of the game are (or will be) broken up into various modules and types. Additionally, the overall gameplay logic is currently divided amongst different game states. Details are below.
 
-
-= Modules =
-
 All modules are JavaScript objects that are contained in the global `m3` object. Each module contains whatever data and functions it needs to run, and is managed as needed by the game states. Modules are singleton objects that are instantiated at the beginning of the program, as opposed to types, which may have more than one instance and can be instantiated at any time.
 
-The modules are stored in their own files in the scripts/modules directory.
-
-== Config ==
+=== Config ===
 
 This module contains data that is used to configure the game itself. Currently it only contains the game's frames per second, but it will probably grow significantly as development continues.
 
-== Util ==
+=== Util ===
 
 This module contains utility functions. Currently it just contains a function to log text to the console beneath the game.
 
-== Input ==
+=== Input ===
 
 See [Input].
 
-== Camera ==
+=== Camera ===
 
 The camera module contains methods to manipulate the game's viewport. To use it in a state, all you need to do is call `m3.camera.update` inside the state's update function. You can then use all of the module's functions. `move` will move the viewport by the given amount, `warp` will instantly teleport the camera to the given location, and `slideTo` will cause the camera to slide to the specified location at the specified speed.
 
 `slideTo` can be given a transition type, which determines how the camera will move. Currently, you can pass in either `linear`, which transitions at a constant rate, or `smooth`, which starts off quick and then slows down so that it looks smoother.
 
-== Assets ==
+=== Assets ===
 
 This is a special module that contains all of the game assets. The purpose of the module is to load all the assets before the game starts so that the game doesn't try to run with partially downloaded assets. Currently the assets are broken into several nested objects for organization.
 
-== Score ==
+=== Score ===
 
 This module manages the scoring system. For now it just holds the actual score numbers for both players, but eventually it'll probably have stuff like the point values for various actions, saving of high scores, and possibly more.
 
-== UI ==
+=== UI ===
 
 See [User_Interface].
 
-== Math ==
+=== Math ===
 
 This module contains utility functions for math-related things. Currently it just has a utility function to clamp a number within a given range.
 
-
-= Types =
+== JavaScript Types ==
 
 Types differ from modules in that they have constructors which we use to create instances of that type, whereas modules are singleton objects which are created at load time. The constructors for all the types are placed into the `m3.types` object, so an example of instantiating a Vector could be `var v = new m3.types.Vector(0, 1);`.
 
 The types are stored in their own files in the scripts/types directory.
 
-== Vector ==
+=== Vector ===
 
 This is a simple type representing a generic vector. It can be used for a variety of purposes. For example, the velocity of an object in 2D space can be modeled as a vector.
 
 The type also contains several useful operations for vectors, such as normalization and finding a vector's length.
 
-== Level ==
+=== Level ===
 
 This object manages the game's level -- things like the fortresses, physics objects, etc. Right now it just draws the level's multi-layered background to the screen using the nifty parallax scrolling technique.
 
-== Sprite ==
+=== Sprite ===
 
 See [Sprites].
 
-
-= Game States =
+=== Game States ===
 
 The game states are where the game's logic goes. The constructors for all the states are placed into the `m3.states` object, and the instance of the current state is stored in `m3.game.state`. When you want to transition from one state to another (say, to the Play State), set `m3.game.state` to a new instance of the state you want, as in: `m3.game.state = new m3.game.states.PlayState();`.
 
@@ -75,10 +110,12 @@ The actual logic goes into each state's `update` function. The main game loop is
 
 The states are stored in their own files in the scripts/states directory.
 
-== Main Menu State ==
+=== Main Menu State ===
 
 This is the initial state of the game when the page is first loaded. It needs to display our splash image and menu options and read input from the player. Currently it just fills in the background and draws the name of the game.
 
-== Play State ==
+=== Play State ===
 
 This will be the main state of the game, which is active when the player is actual playing the game. Currently it does nothing.
+
+== The Back End ==
