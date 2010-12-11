@@ -1,4 +1,5 @@
 #summary Start here!
+#labels Featured
 ----
 
 === Welcome ===
