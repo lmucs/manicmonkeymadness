@@ -1,4 +1,5 @@
 #summary How to define and use sprites in M3
+----
 
 == Introduction ==
 
@@ -68,3 +69,29 @@ When you have multiple animations, you can switch them at any time by just calli
 If you need to stop a sprite from playing completely, you can call `stop(new_frame)`. The `new_frame` parameter is optional. If you leave it out, the sprite will stop at the frame it's currently playing. Otherwise it will skip to whatever frame you pass in and wait.
 
 Lastly, in order to actually animate and render the sprite, you'll just need to call its `update` function every frame.
+
+== Single-frame Sprites ==
+
+It is not uncommon to have a sprite with only a single frame, such as rocks, petrified wood, and other objects that do not blow apart or get squished.  These are normally just placed in the canvas as simple images, subject to transformations such as rotations, translations, and scalings.  No sheet is necessary.
+
+Examples of M3 single-frame sprites are:
+
+<p align="center">
+<img src="http://manicmonkeymadness.googlecode.com/svn/trunk/war/images/sprites/cannon.png" />
+<img src="http://manicmonkeymadness.googlecode.com/svn/trunk/war/images/sprites/rock.png" />
+<img src="http://manicmonkeymadness.googlecode.com/svn/trunk/war/images/sprites/banana.png" />
+<img src="http://manicmonkeymadness.googlecode.com/svn/trunk/war/images/sprites/banana_green.png" />
+<img src="http://manicmonkeymadness.googlecode.com/svn/trunk/war/images/sprites/banana_bunch.png" />
+<img src="http://manicmonkeymadness.googlecode.com/svn/trunk/war/images/sprites/triangle_wood.png" />
+<img src="http://manicmonkeymadness.googlecode.com/svn/trunk/war/images/sprites/box_long_wood.png" />
+<img src="http://manicmonkeymadness.googlecode.com/svn/trunk/war/images/sprites/box_long_wood_damaged.png" />
+<img src="http://manicmonkeymadness.googlecode.com/svn/trunk/war/images/sprites/box_long_wood_destroyed.png" />
+<img src="http://manicmonkeymadness.googlecode.com/svn/trunk/war/images/sprites/box_short_wood.png" />
+<img src="http://manicmonkeymadness.googlecode.com/svn/trunk/war/images/sprites/box_square_wood.png" />
+<img src="http://manicmonkeymadness.googlecode.com/svn/trunk/war/images/sprites/box_wide_wood.png" />
+<img src="http://manicmonkeymadness.googlecode.com/svn/trunk/war/images/sprites/box_long_rock.png" />
+<img src="http://manicmonkeymadness.googlecode.com/svn/trunk/war/images/sprites/box_wide_rock.png" />
+<img src="http://manicmonkeymadness.googlecode.com/svn/trunk/war/images/sprites/box_short_rock.png" />
+<img src="http://manicmonkeymadness.googlecode.com/svn/trunk/war/images/sprites/box_square_rock.png" />
+<img src="http://manicmonkeymadness.googlecode.com/svn/trunk/war/images/sprites/triangle_rock.png" />
+</p>
