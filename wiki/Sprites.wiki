@@ -1,43 +1,61 @@
-#summary Documentation for Sprite type.
+#summary How to define and use sprites in M3
 
-= Introduction =
+== Introduction ==
 
-Sprites allow you to create animated images using a sprite sheet -- a single image that contains all of the frames of an animation. Here's an example of a simple sprite sheet:
+Sprites allow you to create animated images using a _sprite sheet_ -- a single image that contains all of the frames of an animation. Here is an example of simple sprite sheet:
 
-<img src="http://manicmonkeymadness.googlecode.com/svn/trunk/src/main/web/images/sprites/demo_monkey.png" />
+<p align="center">
+<img src="http://manicmonkeymadness.googlecode.com/svn/trunk/war/images/sprites/monkey_helmet.png" />
+</p>
 
-This sprite sheet has four frames. In terms of our sprite implementation, they are indexed from left to right, top to bottom starting at zero, so that the indices are:
+This sprite sheet has eight frames.  Frames are indexed from left to right, top to bottom starting at zero.  Our sheet has one row and eight columns, so our frame indices are:
+
+|| 0 || 1 || 2 || 3 || 4 || 5 || 6 || 7 ||
+
+The number of rows and columns is arbitrary (as long as you can define the proper number of frames), so we could have built the sheet differently.  Here are some other options:
+
+|| 0 || 1 || 2 || 3 ||
+|| 4 || 5 || 6 || 7 ||
 
 || 0 || 1 ||
 || 2 || 3 ||
+|| 4 || 5 ||
+|| 6 || 7 ||
 
+Other examples of sprites in M3 include the following:
 
-= Sprite sheet requirements =
+<p align="center">
+<img src="http://manicmonkeymadness.googlecode.com/svn/trunk/war/images/sprites/monkey_spike.png" />
+</p>
 
-It is important to note that each "cell" in the sprite sheet must be exactly the same width and height. For example, the dimensions of the demo sprite sheet are 50x46. Since there are 2x2 frames, we know that the dimensions of each frame are (50 / 2)x(46 / 2) = 25x23.
+<p align="center">
+<img src="http://manicmonkeymadness.googlecode.com/svn/trunk/war/images/sprites/watermelon_explode.png" />
+</p>
 
-The number of rows and columns in the sprite sheet is arbitrary. It can be whatever you want -- so for example, the sprite sheet above could have had just one row of four cells instead of two rows of two cells.
+== Sprite sheet requirements ==
+
+It is important to note that each "cell" in the sprite sheet must be exactly the same width and height. For example, the dimensions of the first example sprite sheet are 400 x 55. Since there are 8 frames in one row, we know the dimensions of each frame are 50 x 55.
 
 PNG format is preferred.
 
+== Usage ==
 
-= Usage =
-
-You can create a sprite with its constructor: `m3.types.Sprite(sheet, height, width, x, y)`. Of these parameters, only `x` and `y` are optional. `sheet` is a reference to the image that is the sprite sheet itself. `height` and `width` are the dimensions of each frame, NOT the sprite sheet. `x` and `y` are coordinates where the sprite will be drawn.
+You can create a sprite with its constructor: `m3.types.Sprite.create(sheet, height, width, x, y)`. Of these parameters, only `x` and `y` are optional. `sheet` is a reference to the image that is the sprite sheet itself. `height` and `width` are the dimensions of each frame, NOT the sprite sheet. `x` and `y` are coordinates where the sprite will be drawn.
 
 An example that uses the monkey sprite from above could be (assuming the sprite sheet image has been loaded into the assets module under `sprites.monkey`):
 
 {{{
-var sprite = new m3.types.Sprite(m3.assets.sprites.monkey, 23, 25, 600, 400);
+var sprite = m3.types.Sprite.create(m3.assets.sprites.monkey, 50, 55, 600, 400);
 }}}
 
 Once you create a sprite, you can start creating animations with `addAnimation`, like this:
 
 {{{
-sprite.addAnimation("idle", [0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 1, 0, 0, 0, 2, 2, 3, 3, 2, 2, 3, 3, 2, 2], 0.12);
+sprite.addAnimation("idle", [0,0,0,0,1,0,0,0,0,1,0,0,1,0,0,0,2,2,3,3,2,2,3,3,2,2,0,0], 0.12);
+sprite.addAnimation("death", [4,4,5,6,7], 0.25);
 }}}
 
-This creates an animation for the sprite with the name "idle", which will loop through the frame indices given in the array at a rate of one frame per 0.12 seconds. This set of frames makes the monkey blink a few times, then scratch his head. You can create as many animations as you want.
+This creates two animations for the sprite, named "idle" and "death".  The former loops through the frames at a rate of one frame per 0.12 seconds; the second at one frame per 0.25 seconds. When idle, the monkey occasionally looks left and right, and sometimes looks forward wide-eyed and sometimes looks forward naturally.
 
 Finally, you need to actually play the animation, which you can do by calling `play` with the animation id:
 
