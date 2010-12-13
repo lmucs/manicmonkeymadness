@@ -1,8 +1,10 @@
-#How the music was created in m3
+#summary How the music was created in m3
 
 = Introduction =
 
 The music included in m3 consists of two original songs, named (rather creatively) "Monkeys" and "Metal Monkeys."  Both were created using a combination of Hydrogen, the free drum machine for Linux, Audacity, the sound recording software, and pure, unadulterated awesomeness. 
+
+Originally we wanted to use Metallica's "Ride the Lightning," be we didn't want to get sued by Lars Ulrich.
 
 
 = Hydrogen =
