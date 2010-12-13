@@ -2,7 +2,7 @@
 #labels Featured
 ----
 
-=== Welcome ===
+= Welcome =
 
 This is the official wiki for the LMU CMSI 401 Software Engineering Laboratory course for 2010.  
 
@@ -10,7 +10,7 @@ The wiki also functions as the traditional project notebook.  All design notes, 
 
 For information about the course for which this project was written, including the syllabus and the course notes, see the  [http://www.cs.lmu.edu/~ray/classes/se LMU course web page].  This wiki is strictly for the coursework and collaboration, not for dissemination of course announcements and requirements.
 
-=== The Team ===
+= The Team =
 
 <img src="http://manicmonkeymadness.googlecode.com/files/m3-screenshot-01.png" width="400" align="right" />
 
