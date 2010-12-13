@@ -15,5 +15,5 @@ To add the guitar, we set up a microphone to take input from our amps, and used 
 
 = Credits =
 
-* "Monkeys" was written and performed by Anthony Khayat
-* "Metal Monkeys" was both written and performed by Anthony Khayat and Matt Kronk
+  * "Monkeys" was written and performed by Anthony Khayat
+  * "Metal Monkeys" was both written and performed by Anthony Khayat and Matt Kronk
