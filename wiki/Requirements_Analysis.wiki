@@ -3,7 +3,7 @@
 
 During the first week of class, we picked a project and sketched out rough requirements.  As development unfolded, and feedback came in, we filled in our detailed requirements.
 
-=== Rough Requirements ===
+= Rough Requirements =
 
   # M3 shall run as an application on a web page, inside a {{{<canvas>}}} element.
   # The game shall run on Firefox, Chrome, Opera, and Safari.  It need not run on IE or mobile browsers.
@@ -16,7 +16,7 @@ During the first week of class, we picked a project and sketched out rough requi
     * Persistence: database to track high scores
     * Service layer: to interact with the database
 
-=== Detailed Requirements ===
+= Detailed Requirements =
 
   # The game shall be deployed to Google App Engine at {{{manicmonkeymadness.appspot.com}}}
   # The game shall consist of a single page containing
@@ -39,5 +39,13 @@ During the first week of class, we picked a project and sketched out rough requi
     * Collisions, if any, shall be tracked and animated, with the corresponding updates applied to the object world.
     * The turn shall be deemed to have ended according to the following:
       * TODO
+  # At the end of each turn, the game shall determine if the current player has won
+    # If so, the game will indicate the winning player
+    # If not, the other player will become the current player
 
-  
+= Non-Functional Requirements =
+
+  # People with a little bit of experience with games shall be able to just start playing
+  # The help text shall be written in decent English, without too many spelling and grammar mistakes
+  # The game shall not crash the hosting browser
+  # The game shall make people laugh when they see that monkeys can be shot out of cannons
