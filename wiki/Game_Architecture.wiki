@@ -1,7 +1,9 @@
 #summary Manic Monkey Madness from 30,000 feet
 ----
 
-== Physical Architecture ==
+Here is a quick overview of the project architecture, from both physical and logical perspectives;
+
+= Physical Architecture =
 
 The game is physically packaged as a project with the following directory structure:
 {{{
@@ -34,19 +36,31 @@ The game is physically packaged as a project with the following directory struct
         └── js
 }}}
 
-The game is deployed as a single war file on the Google App Engine.
+The game is deployed as a single war file on the Google App Engine.  Front end tests are deployed so that the test suite can be invoked from the game itself.
 
-== Logical Architecture ==
+= Logical Architecture =
 
 The major divisons in the project are:
 
   * Java classes for the backend (server-side)
   * The main HTML page
   * JavaScript front-end code
+    * Initialization
+    * Animation Loop
+    * Game States
+    * User Interaction
+    * Physics
+    * Camera
+    * Forts
+    * Launchers
+    * Projectiles
+    * Math
+    * _and quite a few other subdivisions_
   * Stylesheets
   * Images
+    * Sprites
+    * Icons
+    * Backgrounds
   * Audio
-
-== Testing ==
-
-Testing for the front-end is done via a test suite running under the QUnit framework.  Back-end tests use the JUnit framework.
+    * Sound Effects
+    * Original Music
