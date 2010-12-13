@@ -1,0 +1,19 @@
+#summary One-sentence summary of this page.
+
+= Introduction =
+
+The music included in m3 consists of two original songs, named (rather creatively) "Monkeys" and "Metal Monkeys."  Both were created using a combination of Hydrogen, the free drum machine for Linux, Audacity, the sound recording software, and pure, unadulterated awesomeness. 
+
+
+= Hydrogen =
+
+[http://www.hydrogen-music.org Hydrogen] is an open source program made specifically for GNU/Linux.  All of the drum tracks from both songs were created using it (unfortunately, none of us play the drums) and exported as WAV files, which we imported into Audacity.
+
+= Audacity =
+
+To add the guitar, we set up a microphone to take input from our amps, and used [http://audacity.sourceforge.net/ Audacity] to record.  We played it over the drum track, which, as I said, we imported into Audacity in WAV form.  I then used Audacity to repeat parts that needed to do so, and exported them as MP3 and OGG files.  We then included them in the game using html5 audio.
+
+= Credits =
+
+* "Monkeys" was written and performed by Anthony Khayat
+* "Metal Monkeys" was both written and performed by Anthony Khayat and Matt Kronk
