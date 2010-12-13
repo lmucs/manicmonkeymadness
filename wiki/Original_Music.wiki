@@ -1,11 +1,11 @@
 #summary How the music was created in m3
+----
 
 = Introduction =
 
-The music included in m3 consists of two original songs, named (rather creatively) "Monkeys" and "Metal Monkeys."  Both were created using a combination of Hydrogen, the free drum machine for Linux; Audacity, the sound recording software; and pure, unadulterated awesomeness. 
+The music included in m3 consists of two original songs, named (rather creatively) "Monkeys" and "Metal Monkeys."  Both were created using a combination of [http://www.hydrogen-music.org/ Hydrogen], the free drum machine for Linux, and [http://audacity.sourceforge.net/ Audacity], the sound recording software; and pure, unadulterated awesomeness. 
 
-Originally we wanted to use Metallica's "Ride the Lightning," be we didn't want to get sued by Lars Ulrich.
-
+Originally we wanted to use Metallica's "Ride the Lightning," be we didn't want to get sued by [http://en.wikipedia.org/wiki/Lars_Ulrich Lars Ulrich].
 
 = Hydrogen =
 
@@ -13,15 +13,13 @@ Originally we wanted to use Metallica's "Ride the Lightning," be we didn't want 
 
 <img src="http://manicmonkeymadness.googlecode.com/files/hydrogen.png" width="600" align="center" />
 
-
 Looks intense, right?
 
 = Audacity =
 
-To add the guitar, we set up a microphone to take input from our amps, and used [http://audacity.sourceforge.net/ Audacity] to record.  We played it over the drum track, which, as I said, we imported into Audacity in WAV form.  I then used Audacity to repeat parts that needed to do so, and exported them as MP3 and OGG files.  We then included them in the game using html5 audio.
+To add the guitar, we set up a microphone to take input from our amps, and used [http://audacity.sourceforge.net/ Audacity] to record.  We played it over the drum track, which, as I said, we imported into Audacity in WAV form.  We then used Audacity to repeat parts that needed to do so, and exported them as MP3 and OGG files.  We then included them in the game using html5 audio.
 
 <img src="http://manicmonkeymadness.googlecode.com/files/Audacity.png" width="600" align="center" />
-
 
 = Future =
 
@@ -29,5 +27,5 @@ We plan to add bass tracks to each song eventually, and also include a bridge an
 
 = Credits =
 
-  * "Monkeys" was written and performed by Anthony Khayat.
-  * "Metal Monkeys" was both written and performed by Anthony Khayat and Matt Kronk.
+  * "*_Monkeys_*" was written and performed by Anthony Khayat.
+  * "*_Metal Monkeys_*" was both written and performed by Anthony Khayat and Matt Kronk.
