@@ -16,7 +16,7 @@ In no particular order, here are some things that monkeys may use in battle.  We
   * Board stuck to ground
 
 === Projectiles ===
-
+  * DK barrel with Diddy kong inside :)
   * Birds with powers :)
   * Rock
   * Banana -- super bouncy
@@ -33,7 +33,7 @@ In no particular order, here are some things that monkeys may use in battle.  We
   * Grenade
 
 === Projectile-like Weapons ===
-
+  
   * BB Gun :)
   * Charging elephants or rhinos
   * Bazooka (able to use every 5 turns) :)
