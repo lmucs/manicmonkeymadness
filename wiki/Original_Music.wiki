@@ -1,4 +1,4 @@
-#summary One-sentence summary of this page.
+#How the music was created in m3
 
 = Introduction =
 
@@ -15,9 +15,9 @@ To add the guitar, we set up a microphone to take input from our amps, and used 
 
 = Future =
 
-We plan to add bass tracks to each song eventually, and also include a bridge and a sweet guitar solo in "Metal Monkeys"
+We plan to add bass tracks to each song eventually, and also include a bridge and a sweet guitar solo in "Metal Monkeys."
 
 = Credits =
 
-  * "Monkeys" was written and performed by Anthony Khayat
-  * "Metal Monkeys" was both written and performed by Anthony Khayat and Matt Kronk
+  * "Monkeys" was written and performed by Anthony Khayat.
+  * "Metal Monkeys" was both written and performed by Anthony Khayat and Matt Kronk.
