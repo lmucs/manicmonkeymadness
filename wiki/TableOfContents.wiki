@@ -5,6 +5,7 @@
   # [Game_Architecture Project Architecture]
   # Design
     * [Modules_And_Types Modules and Types]
+    * [Game_States Game States]
     * [Physics_Engine Physics Engine]
     * [User_Interface User Interface]
     * [Input]
