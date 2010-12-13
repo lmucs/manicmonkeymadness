@@ -13,14 +13,13 @@
     * [Sound]
     * [Launchers_And_Projectiles Launchers and Projectiles]
   # Implementation
-    * HTML
-    * Canvas
-    * Original Music
+    * [HTML]
+    * [Canvas]
+    * [Original_Music Original Music]
   # Testing
     * [Comments_from_Aidan Comments from Aidan]
-    * Front End Testing with QUnit
-    * Back End Testing with JUnit
+    * [Front_End_Testing Front End Testing with QUnit]
+    * [Back_End_Testing Back End Testing with JUnit]
   # [Deployment]
   # [Meeting_Log Appendix: Meeting Notes]
-  # Appendix: Design Skecthes, Prototypes, and Whitepapers
   # [Future_Work Appendix: Future Work]
