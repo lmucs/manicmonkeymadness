@@ -4,13 +4,13 @@
   # [Use_Cases Use Cases]
   # [Game_Architecture Project Architecture]
   # Design
-    * Modules and Types
-    * [Game_Engine]
+    * [Modules_And_Types Modules and Types]
+    * [Physics_Engine Physics Engine]
     * [User_Interface User Interface]
     * [Input]
     * [Sprites]
     * [Sound]
-    * [LaunchersAndProjectiles Launchers and Projectiles]
+    * [Launchers_And_Projectiles Launchers and Projectiles]
   # Implementation
     * HTML
     * Canvas
@@ -19,7 +19,7 @@
     * [Comments_from_Aidan Comments from Aidan]
     * Front End Testing with QUnit
     * Back End Testing with JUnit
-  # Deployment
+  # [Deployment]
   # [Meeting_Log Appendix: Meeting Notes]
   # Appendix: Design Skecthes, Prototypes, and Whitepapers
-  # Appendix: Future Work
+  # [Future_Work Appendix: Future Work]
