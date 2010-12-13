@@ -26,4 +26,4 @@ The Manic Monkey Madness Team consists of
 
 Some professors and alumni registered as committers, or provided insight, help, advice, or pestering. Thanks to [http://www.cs.lmu.edu/~dondi/ Dondi Dionisio], [http://myweb.lmu.edu/bjohnson/ B.J. Johnson], [http://technocage.com/~caskey/ Caskey Dickson], and Don Murphy.
 
-Thanks also to volunteer beta testers [http://doubleapolitics.blogspot.com Anya Prynn], Jacob Miller, Maurice Khayat, Ibrahim Khayat, and Kaniel Yano.
+Thanks also to volunteer beta testers [http://doubleapolitics.blogspot.com Anya Prynn], Jacob Miller, Maurice Khayat, Ibrahim Khayat, Kaniel Yano, and Keila Carmer.
