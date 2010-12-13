@@ -1,9 +1,9 @@
 #summary Documentation for M3 game engine.
----
+----
 
 == Introduction ==
 
-While M3 can be said to have its own _game engine_, it does make use of a _physics engine_.  We chose the  [http://www.box2d.org Box2D physics engine], a 2D rigid body simulation library originally written in C++.  M3 is currently running the [http://code.google.com/p/box2dweb/ box2dweb] JavaScript port which was converted from Box2DFlash 2.1a.  The M3 `world` and `contact` modules as well as the `PhysicsObject` type serve as the main wrappers around Box2D objects and classes. Through them all the game's communication with the Box2D simulation takes place.
+While M3 can be said to have its own _game engine_, it does make use of a _physics engine_.  We chose the  [http://www.box2d.org Box2D physics engine], a 2D rigid body simulation library originally written in C++.  M3 is currently running the [http://code.google.com/p/box2dweb/ box2dweb] !JavaScript port which was converted from Box2DFlash 2.1a.  The M3 `world` and `contact` modules as well as the `PhysicsObject` type serve as the main wrappers around Box2D objects and classes. Through them all the game's communication with the Box2D simulation takes place.
 
 == Details ==
 
@@ -18,3 +18,7 @@ The `PhysicsObject` type is a wrapper around a Box2D object instance consisting 
 }}}
 
 The parameters include the `x` and `y` coordinates in meters of the object's centroid. The parameter `fixed` is a Boolean that determines if an object will be fixed at a location or will interact with forces such as gravity, while `density`, `friction`, and `restitution` (bounciness) are Box2D physical properties of an object (refer to the [http://www.box2d.org/manual.html API] for acceptable values).  For `createPoly`, an array of points is taken that are about the objects centroid as its origin.
+
+== Debug Mode ==
+
+M3 allows access to the box2d wireframe view by pressing the D key at any time during game play.
