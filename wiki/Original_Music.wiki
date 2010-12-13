@@ -13,6 +13,10 @@ The music included in m3 consists of two original songs, named (rather creativel
 
 To add the guitar, we set up a microphone to take input from our amps, and used [http://audacity.sourceforge.net/ Audacity] to record.  We played it over the drum track, which, as I said, we imported into Audacity in WAV form.  I then used Audacity to repeat parts that needed to do so, and exported them as MP3 and OGG files.  We then included them in the game using html5 audio.
 
+= Future =
+
+We plan to add bass tracks to each song eventually, and also include a bridge and a sweet guitar solo in "Metal Monkeys"
+
 = Credits =
 
   * "Monkeys" was written and performed by Anthony Khayat
