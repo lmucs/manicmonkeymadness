@@ -12,7 +12,7 @@ For information about the course for which this project was written, including t
 
 = The Team =
 
-<img src="http://manicmonkeymadness.googlecode.com/files/m3-screenshot-01.png" width="400" align="right" />
+<img src="http://manicmonkeymadness.googlecode.com/files/m3-screenshot-01.png" width="500" align="right" />
 
 The Manic Monkey Madness Team consists of
   * Anthony Khayat
