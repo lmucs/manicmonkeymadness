@@ -1,1 +1,1 @@
-#summary The game was deployed on Google App Engine (GAE) using the google eclipse plugin.  The game can be played [www.manicmonkeymadness.appspot.com  here]
+#summary The game was deployed on Google App Engine (GAE) using the google eclipse plugin.  The game can be played www.manicmonkeymadness.appspot.com
