@@ -18,6 +18,8 @@ During the first week of class, we picked a project and sketched out rough requi
 
 = Detailed Requirements =
 
+== General ==
+
   # The game shall be deployed to Google App Engine at {{{manicmonkeymadness.appspot.com}}}
   # The game shall consist of a single page containing
     * A canvas which scrolls horizontally
@@ -38,10 +40,27 @@ During the first week of class, we picked a project and sketched out rough requi
     * Projectiles flying in the world above the viewport shall be tracked with some indicator that makes sense to a reasonable human player
     * Collisions, if any, shall be tracked and animated, with the corresponding updates applied to the object world.
     * The turn shall be deemed to have ended according to the following:
-      * TODO
+      * If in Last Monkey Standing Mode, all of the opposing monkeys have been destroyed
+      * In Demolotion Derby Mode, the full number of turns have been taken by each player
   # At the end of each turn, the game shall determine if the current player has won
     # If so, the game will indicate the winning player
     # If not, the other player will become the current player
+  # At the end of the game, the winner's score is checked against the persistent high scores list.
+    * If the new score would be one of the top ten high scores for the given game type, the player is offered a change to submit his or her name (and score) to the server to be recorded. 
+
+== Display ==
+
+* The canvas shall be horizontally scrollable
+* The background scroll shall use parallax or similar effect
+* The number of turns taken by each player shall be visible
+* If in Demolition Derby Mode, the number of total turns shall be visible
+* The number of remaining monkeys per player may be tracked
+* Icons for toggling sound, toggling music, and accessing help shall be prominent
+
+== Sound ==
+
+* Sound effects shall use HTML5 audio, no Flash
+* Music shall be of original composition only
 
 = Non-Functional Requirements =
 
