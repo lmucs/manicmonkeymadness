@@ -41,7 +41,7 @@
     * Looked at one !JavaScript physics engine
   * Assigned tasks for next class
     * Creation of background images and sprites (Matt)
-    * Money sprite initial animation (David)
+    * Monkey sprite initial animation (David)
     * Launcher structure and behavior with good UI techniques (Anthony)
     * Physics engine research and rough fortress collapse demo (Matt and Jarod)
   * *Lecture*: !JavaScript objects, constructors, prototypes, information hiding, and anonymous functions.
